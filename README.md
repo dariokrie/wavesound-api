@@ -15,18 +15,22 @@
 		-> profiles for automapper
 		
 20 Domain
-- CurrencyConverter.Domain
+- WaveSound.Domain
 	- Models
 		-> each entity designed as a domain model
 	- Services
 		-> business logic
 		
-30 Data
-- CurrencyConverter.Common
+30 Common
+- WaveSound.Common
 	- Exceptions
 		-> custom exception
 	- Extension
-		-> contains a static class, extension method included 
+		-> contains a static class, extension method included
+
+40 Testing
+- WaveSound.UnitTest
+	- Tests: PathEx, SoundCloudService, SpotifyService
 		
 ## Techstack
 - C# .NET8
