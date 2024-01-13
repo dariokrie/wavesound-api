@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaveSound.Domain", "WaveSound.Domain\WaveSound.Domain.csproj", "{A5E2E0D7-59FC-4977-B045-C7EFCBA270A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20 Domain", "20 Domain", "{FA26550B-6E06-40CD-A52F-3D043D774E1D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10 Api", "10 Api", "{D7FB8832-192F-4E78-A44B-4B8B5A889ADE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaveSound.Api", "WaveSound.Api\WaveSound.Api.csproj", "{AE741543-C43D-4626-BF38-584046DE8C8D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "30 Common", "30 Common", "{F408669E-383A-4685-AC9D-BD54B828B5F4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaveSound.Common", "WaveSound.Common\WaveSound.Common.csproj", "{82905273-DBBA-4B1F-9822-5CCFD796A1FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "40 Testing", "40 Testing", "{5B879540-7E4A-43BD-A0BA-5D405C20A769}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaveSound.UnitTest", "WaveSound.UnitTest\WaveSound.UnitTest.csproj", "{3C08501C-5E46-421F-82B6-9A1B9AC91B8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5E2E0D7-59FC-4977-B045-C7EFCBA270A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5E2E0D7-59FC-4977-B045-C7EFCBA270A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5E2E0D7-59FC-4977-B045-C7EFCBA270A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5E2E0D7-59FC-4977-B045-C7EFCBA270A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE741543-C43D-4626-BF38-584046DE8C8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE741543-C43D-4626-BF38-584046DE8C8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE741543-C43D-4626-BF38-584046DE8C8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE741543-C43D-4626-BF38-584046DE8C8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82905273-DBBA-4B1F-9822-5CCFD796A1FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82905273-DBBA-4B1F-9822-5CCFD796A1FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82905273-DBBA-4B1F-9822-5CCFD796A1FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82905273-DBBA-4B1F-9822-5CCFD796A1FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C08501C-5E46-421F-82B6-9A1B9AC91B8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C08501C-5E46-421F-82B6-9A1B9AC91B8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C08501C-5E46-421F-82B6-9A1B9AC91B8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C08501C-5E46-421F-82B6-9A1B9AC91B8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A5E2E0D7-59FC-4977-B045-C7EFCBA270A5} = {FA26550B-6E06-40CD-A52F-3D043D774E1D}
+		{AE741543-C43D-4626-BF38-584046DE8C8D} = {D7FB8832-192F-4E78-A44B-4B8B5A889ADE}
+		{82905273-DBBA-4B1F-9822-5CCFD796A1FA} = {F408669E-383A-4685-AC9D-BD54B828B5F4}
+		{3C08501C-5E46-421F-82B6-9A1B9AC91B8D} = {5B879540-7E4A-43BD-A0BA-5D405C20A769}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68610CC5-B57A-4224-9583-FC40A2395F4E}
+	EndGlobalSection
+EndGlobal

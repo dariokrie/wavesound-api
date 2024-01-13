@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NAudio" Version="2.2.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="SoundCloudExplode" Version="1.5.3" />
+    <PackageReference Include="SpotifyExplode" Version="1.0.7" />
+    <PackageReference Include="YoutubeExplode" Version="6.3.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WaveSound.Common\WaveSound.Common.csproj" />
+  </ItemGroup>
+
+</Project>

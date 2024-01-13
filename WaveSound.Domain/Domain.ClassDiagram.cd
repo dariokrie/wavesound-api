@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WaveSound.Domain.Models.SoundCloudDomainModel">
+    <Position X="4.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\SoundCloudDomainModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WaveSound.Domain.Models.SpotifyDomainModel">
+    <Position X="4.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\SpotifyDomainModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WaveSound.Domain.Services.DownloadPathUpdater" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="8" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAQAAAAAA=</HashCode>
+      <FileName>Services\DownloadPathUpdater.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WaveSound.Domain.Services.SoundCloudService" BaseTypeListCollapsed="true">
+    <Position X="6.25" Y="8" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Services\SoundCloudService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WaveSound.Domain.Services.SpotifyService" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="8" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Services\SpotifyService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="WaveSound.Domain.Services.Interfaces.IDownloadPathUpdater">
+    <Position X="6.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQAAAAAA=</HashCode>
+      <FileName>Services\Interfaces\IDownloadPathUpdater.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WaveSound.Domain.Services.Interfaces.ISoundCloudService">
+    <Position X="8" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Interfaces\ISoundCloudService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WaveSound.Domain.Services.Interfaces.ISpotifyService">
+    <Position X="9.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Interfaces\ISpotifyService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
